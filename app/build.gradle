@@ -7,8 +7,8 @@ android {
         applicationId "com.ablingbling.app.kviewpager"
         minSdkVersion rootProject.ext.android.minSdkVersion
         targetSdkVersion rootProject.ext.android.targetSdkVersion
-        versionCode 100
-        versionName "1.0.0"
+        versionCode 101
+        versionName "1.0.1"
     }
 
     buildTypes {
@@ -24,8 +24,6 @@ dependencies {
     implementation rootProject.ext.dependencies["appcompat-v7"]
     implementation rootProject.ext.dependencies["design"]
     implementation project(':kviewpager')
-
-    //Salvage https://github.com/tomxukui/Salvage
     implementation 'com.github.tomxukui:Salvage:1.0.0'
 }
 
