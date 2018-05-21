@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KViewPager</string>
+    <string name="action_settings">Settings</string>
+    <string name="recycled">Recycled?</string>
+    <string name="position">Position</string>
+    <string name="word">Word</string>
+</resources>
